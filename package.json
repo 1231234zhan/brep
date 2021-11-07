@@ -1,0 +1,13 @@
+{
+  "name": "brep",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "tsc ;cp public/* dist; "
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
