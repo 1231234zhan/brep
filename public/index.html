@@ -26,13 +26,16 @@ Input Format
 
 mvsf {v} ({x}, {y}, {z}) [{newloopid} [{newfaceid}]]
 mev {v} {newv} ({x}, {y}, {z}) {loopid} [{edgeid}]
-mef {v} {newv} {loopid} {newedgeid} {newfaceid} {newloopid} 
+mef {v1} {v2} {loopid} {newedgeid} {newfaceid} {newloopid} 
 kemr {edgeid} {loopid} [{newloopid}]
 kfmrh {faceid} {faceid}
 sweep ({x}, {y}, {z})
 
 if id==0 or no id input, a random id will be used.
-Bugs can be easily triggered!!!!!! So you can just only try the following test inputs, or minorly edit existing input.
+You could find in most operations loopid is needed, because the program must know which loop is affected when a new edge is created or deleted.
+Note that 'mef {v1} {v2} ...' is different from 'mef {v2} {v1} ...', it depends on the face direction you want to create. Please refer to the following example to find the rule :)
+
+Bugs can be easily triggered!!!!!! So I advise you to just only try the following test inputs, or minorly edit existing input.
 
 input1:
 

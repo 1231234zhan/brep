@@ -10,7 +10,9 @@ mvsf  mev  mef  kemr  kfmrh
 
 B-rep data structure and operations are implemented in Typescript. This work uses [Three.js](https://github.com/mrdoob/three.js/) and some code from [Three.js Fundamentals](https://github.com/gfxfundamentals/threejsfundamentals) to draw the built model in browser. [poly2tri](https://github.com/r3mi/poly2tri.js/) is used to triangulate polygonal faces with holes inside.
 
-You can build it with following commands. However there must be **so many bugs** in this project. Do not use it! It's just a course work.
+You can build it with following commands. You can also click [here](http://1231234zhan.github.io/brep) to have a try. Note that you need a modern browser supporting ES6 to make it work properly.
+
+However there must be **so many bugs** in this project. Do not use it! It's just a course work.
 
 ```
 npm install

@@ -139,5 +139,6 @@ function drawSolid(scene: Scene, content: String): string {
   let obj = triangulate(scene);
   assert(obj);
   let objstring = getobj(obj);
+  console.log(scene);
   return objstring;
 }
